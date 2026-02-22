@@ -14,7 +14,7 @@
   },
   "scripts": {
     "dev": "SET PORT = 4949 && react-scripts start",
-    "prob":"SET PORT=3500 && react-scripts start ",
+    "prob": "SET PORT=3500 && react-scripts start ",
     "build": "react-scripts build",
     "test": "SET PORT =6767 && react-scripts test",
     "eject": "react-scripts eject"
@@ -36,5 +36,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.24",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19"
   }
 }
