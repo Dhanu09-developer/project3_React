@@ -1,3 +1,5 @@
+import Division from "./Division";
+import Multiplication from "./Multiplication";
 
 
 let CalculatorApp = () => {
@@ -6,7 +8,9 @@ let CalculatorApp = () => {
         <div>
            <h1>Calculator app</h1>
            <Addition/>
-           <Subtraction/>
+            <Subtraction />
+            <Multiplication />
+            <Division/>
         </div>
     )
 }

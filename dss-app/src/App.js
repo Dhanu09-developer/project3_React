@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import Step1 from "./step 1/Index";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Step1/>
+      <Step1 />
     </div>
   );
 }
